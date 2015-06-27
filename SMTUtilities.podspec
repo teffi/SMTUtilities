@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files = "SMTUtilitiesDemo/**/*.{h,m}"
+  s.source_files = 'SMTUtilitiesDemo/SMTUtilitiesDemo/**/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

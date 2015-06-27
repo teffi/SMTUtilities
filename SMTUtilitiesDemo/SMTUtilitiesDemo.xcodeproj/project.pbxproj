@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BAAB1101B3EDD7B0015C0F3 /* SMTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAAB10F1B3EDD7B0015C0F3 /* SMTUtilities.m */; };
+		6BAAB1671B3EF2380015C0F3 /* SMTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAAB1661B3EF2380015C0F3 /* SMTUtilities.m */; };
+		6BAAB16E1B3EF31D0015C0F3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6BAAB16D1B3EF31D0015C0F3 /* LICENSE */; };
+		6BAAB1721B3EF3CD0015C0F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BAAB1701B3EF3CD0015C0F3 /* Info.plist */; };
+		6BAAB1731B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAAB1711B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m */; };
 		6BB598C11B3EA1480050CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598C01B3EA1480050CD18 /* main.m */; };
 		6BB598C41B3EA1480050CD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598C31B3EA1480050CD18 /* AppDelegate.m */; };
 		6BB598CA1B3EA1480050CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598C81B3EA1480050CD18 /* Main.storyboard */; };
@@ -28,8 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6BAAB10E1B3EDD7B0015C0F3 /* SMTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTUtilities.h; sourceTree = "<group>"; };
-		6BAAB10F1B3EDD7B0015C0F3 /* SMTUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTUtilities.m; sourceTree = "<group>"; };
+		6BAAB1651B3EF2380015C0F3 /* SMTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTUtilities.h; sourceTree = "<group>"; };
+		6BAAB1661B3EF2380015C0F3 /* SMTUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTUtilities.m; sourceTree = "<group>"; };
+		6BAAB16D1B3EF31D0015C0F3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BAAB1701B3EF3CD0015C0F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAAB1711B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTUtilitiesDemoTests.m; sourceTree = "<group>"; };
 		6BB598BB1B3EA1480050CD18 /* SMTUtilitiesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMTUtilitiesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB598BF1B3EA1480050CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BB598C01B3EA1480050CD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,19 +68,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BAAB10D1B3EDD7B0015C0F3 /* SMTUtilities */ = {
+		6BAAB1641B3EF2380015C0F3 /* SMTUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				6BAAB10E1B3EDD7B0015C0F3 /* SMTUtilities.h */,
-				6BAAB10F1B3EDD7B0015C0F3 /* SMTUtilities.m */,
+				6BAAB1651B3EF2380015C0F3 /* SMTUtilities.h */,
+				6BAAB1661B3EF2380015C0F3 /* SMTUtilities.m */,
 			);
 			path = SMTUtilities;
+			sourceTree = "<group>";
+		};
+		6BAAB16F1B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BAAB1701B3EF3CD0015C0F3 /* Info.plist */,
+				6BAAB1711B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m */,
+			);
+			path = SMTUtilitiesDemoTests;
 			sourceTree = "<group>";
 		};
 		6BB598B21B3EA1480050CD18 = {
 			isa = PBXGroup;
 			children = (
-				6BAAB10D1B3EDD7B0015C0F3 /* SMTUtilities */,
+				6BAAB16F1B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests */,
+				6BAAB16D1B3EF31D0015C0F3 /* LICENSE */,
 				6BB598BD1B3EA1480050CD18 /* SMTUtilitiesDemo */,
 				6BB598BC1B3EA1480050CD18 /* Products */,
 			);
@@ -92,6 +108,7 @@
 		6BB598BD1B3EA1480050CD18 /* SMTUtilitiesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6BAAB1641B3EF2380015C0F3 /* SMTUtilities */,
 				6BB598C21B3EA1480050CD18 /* AppDelegate.h */,
 				6BB598C31B3EA1480050CD18 /* AppDelegate.m */,
 				6BB598C81B3EA1480050CD18 /* Main.storyboard */,
@@ -194,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAAB16E1B3EF31D0015C0F3 /* LICENSE in Resources */,
 				6BB598CA1B3EA1480050CD18 /* Main.storyboard in Resources */,
 				6BB598CF1B3EA1480050CD18 /* LaunchScreen.xib in Resources */,
 				6BB598CC1B3EA1480050CD18 /* Images.xcassets in Resources */,
@@ -205,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAAB1721B3EF3CD0015C0F3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BB598C41B3EA1480050CD18 /* AppDelegate.m in Sources */,
-				6BAAB1101B3EDD7B0015C0F3 /* SMTUtilities.m in Sources */,
+				6BAAB1671B3EF2380015C0F3 /* SMTUtilities.m in Sources */,
 				6BB598C11B3EA1480050CD18 /* main.m in Sources */,
 				6BB598EB1B3EA32E0050CD18 /* MainViewController.m in Sources */,
 			);
@@ -226,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAAB1731B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -299,6 +320,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -324,6 +346,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -336,6 +359,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
