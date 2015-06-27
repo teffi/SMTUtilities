@@ -13,7 +13,6 @@
 		6BB598CA1B3EA1480050CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598C81B3EA1480050CD18 /* Main.storyboard */; };
 		6BB598CC1B3EA1480050CD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598CB1B3EA1480050CD18 /* Images.xcassets */; };
 		6BB598CF1B3EA1480050CD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598CD1B3EA1480050CD18 /* LaunchScreen.xib */; };
-		6BB598DB1B3EA1480050CD18 /* SMTUtilitiesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598DA1B3EA1480050CD18 /* SMTUtilitiesDemoTests.m */; };
 		6BB598EB1B3EA32E0050CD18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598E91B3EA32E0050CD18 /* MainViewController.m */; };
 		6BB598EC1B3EA32E0050CD18 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598EA1B3EA32E0050CD18 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		6BB598CB1B3EA1480050CD18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6BB598CE1B3EA1480050CD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6BB598D41B3EA1480050CD18 /* SMTUtilitiesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMTUtilitiesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BB598D91B3EA1480050CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BB598DA1B3EA1480050CD18 /* SMTUtilitiesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTUtilitiesDemoTests.m; sourceTree = "<group>"; };
 		6BB598E81B3EA32E0050CD18 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		6BB598E91B3EA32E0050CD18 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6BB598EA1B3EA32E0050CD18 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -79,7 +76,6 @@
 			children = (
 				6BAAB10D1B3EDD7B0015C0F3 /* SMTUtilities */,
 				6BB598BD1B3EA1480050CD18 /* SMTUtilitiesDemo */,
-				6BB598D71B3EA1480050CD18 /* SMTUtilitiesDemoTests */,
 				6BB598BC1B3EA1480050CD18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,23 +110,6 @@
 			children = (
 				6BB598BF1B3EA1480050CD18 /* Info.plist */,
 				6BB598C01B3EA1480050CD18 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6BB598D71B3EA1480050CD18 /* SMTUtilitiesDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				6BB598DA1B3EA1480050CD18 /* SMTUtilitiesDemoTests.m */,
-				6BB598D81B3EA1480050CD18 /* Supporting Files */,
-			);
-			path = SMTUtilitiesDemoTests;
-			sourceTree = "<group>";
-		};
-		6BB598D81B3EA1480050CD18 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BB598D91B3EA1480050CD18 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -247,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BB598DB1B3EA1480050CD18 /* SMTUtilitiesDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
