@@ -14,7 +14,6 @@
 +(BOOL)isEmpty:(UITextField *)field;
 +(BOOL)isNumeric: (UITextField *)field;
 +(BOOL)isAlphabets:(UITextField *)field;
-+(BOOL)isValidEmail:(NSString *)emailValue;
-+(BOOL)isiPhone4;
++(BOOL)isValidEmail:(UITextField *)field;
 
 @end

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController{
+    IBOutlet UITextField * email;
+    IBOutlet UITextField * numbers;
+    IBOutlet UITextField * alphabets;
+    IBOutlet UIScrollView * scrollView;
+    
+}
+-(IBAction)didValidate:(id)sender;
 
 @end

@@ -19,8 +19,8 @@
     return NO;
 }
 
-+(BOOL)isValidEmail:(NSString *)emailValue{
-    
++(BOOL)isValidEmail:(UITextField *)field{
+    NSString * emailValue = field.text;
     NSString *regex = @"[^@]+@[A-Za-z0-9.-]+\\.[A-Za-z]+";
     NSPredicate *emailPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     
@@ -31,7 +31,8 @@
     return NO;
 }
 
-+(BOOL)isNumeric:(NSString *)str{
++(BOOL)isNumeric:(UITextField *)field{
+    NSString * str = field.text;
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^[0-9]*$" options:NSRegularExpressionCaseInsensitive error:nil];
     NSTextCheckingResult * strRegexResult = [regex firstMatchInString:str options:0 range:NSMakeRange(0, [str length])];
     
@@ -53,11 +54,5 @@
     return NO;
 }
 
-+(BOOL)isiPhone4{
-    if([[UIScreen mainScreen ] bounds ].size.height == 480){
-        return YES;
-    }
-    return NO;
-}
 
 @end
