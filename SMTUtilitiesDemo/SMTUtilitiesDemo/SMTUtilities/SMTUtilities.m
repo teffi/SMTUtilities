@@ -2,8 +2,8 @@
 //  SMTUtilities.m
 //  SMTUtilitiesDemo
 //
-//  Created by Steffi Tan on 6/27/15.
-//  Copyright (c) 2015 iamsteffi.com. All rights reserved.
+//  Created by Teffi : github.com/teffi/SMTUtilities
+//  Copyright (c) 2015 iamsteffi.com
 //
 
 #import "SMTUtilities.h"
