@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6BAAB1671B3EF2380015C0F3 /* SMTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAAB1661B3EF2380015C0F3 /* SMTUtilities.m */; };
-		6BAAB16E1B3EF31D0015C0F3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6BAAB16D1B3EF31D0015C0F3 /* LICENSE */; };
 		6BAAB1721B3EF3CD0015C0F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BAAB1701B3EF3CD0015C0F3 /* Info.plist */; };
 		6BAAB1731B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAAB1711B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m */; };
+		6BAAB1741B3EF7780015C0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598C81B3EA1480050CD18 /* Main.storyboard */; };
+		6BAAB1751B3EF7780015C0F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598CD1B3EA1480050CD18 /* LaunchScreen.xib */; };
 		6BB598C11B3EA1480050CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598C01B3EA1480050CD18 /* main.m */; };
 		6BB598C41B3EA1480050CD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598C31B3EA1480050CD18 /* AppDelegate.m */; };
-		6BB598CA1B3EA1480050CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598C81B3EA1480050CD18 /* Main.storyboard */; };
 		6BB598CC1B3EA1480050CD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598CB1B3EA1480050CD18 /* Images.xcassets */; };
-		6BB598CF1B3EA1480050CD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598CD1B3EA1480050CD18 /* LaunchScreen.xib */; };
 		6BB598EB1B3EA32E0050CD18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB598E91B3EA32E0050CD18 /* MainViewController.m */; };
 		6BB598EC1B3EA32E0050CD18 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB598EA1B3EA32E0050CD18 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		6BAAB1651B3EF2380015C0F3 /* SMTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTUtilities.h; sourceTree = "<group>"; };
 		6BAAB1661B3EF2380015C0F3 /* SMTUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTUtilities.m; sourceTree = "<group>"; };
-		6BAAB16D1B3EF31D0015C0F3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6BAAB1701B3EF3CD0015C0F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BAAB1711B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTUtilitiesDemoTests.m; sourceTree = "<group>"; };
 		6BB598BB1B3EA1480050CD18 /* SMTUtilitiesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMTUtilitiesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				6BAAB16F1B3EF3CD0015C0F3 /* SMTUtilitiesDemoTests */,
-				6BAAB16D1B3EF31D0015C0F3 /* LICENSE */,
 				6BB598BD1B3EA1480050CD18 /* SMTUtilitiesDemo */,
 				6BB598BC1B3EA1480050CD18 /* Products */,
 			);
@@ -211,9 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BAAB16E1B3EF31D0015C0F3 /* LICENSE in Resources */,
-				6BB598CA1B3EA1480050CD18 /* Main.storyboard in Resources */,
-				6BB598CF1B3EA1480050CD18 /* LaunchScreen.xib in Resources */,
+				6BAAB1741B3EF7780015C0F3 /* Main.storyboard in Resources */,
+				6BAAB1751B3EF7780015C0F3 /* LaunchScreen.xib in Resources */,
 				6BB598CC1B3EA1480050CD18 /* Images.xcassets in Resources */,
 				6BB598EC1B3EA32E0050CD18 /* MainViewController.xib in Resources */,
 			);
