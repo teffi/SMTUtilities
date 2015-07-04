@@ -24,7 +24,6 @@
     
     UITapGestureRecognizer * dismissKeyBoard = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(didTapDismiss)];
     [scrollView addGestureRecognizer:dismissKeyBoard];
-    
 }
 
 - (void)didReceiveMemoryWarning {
