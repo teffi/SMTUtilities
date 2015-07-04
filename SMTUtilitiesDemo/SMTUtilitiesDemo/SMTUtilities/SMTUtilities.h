@@ -37,5 +37,11 @@
 +(BOOL)isNumeric: (UITextField *)field;
 +(BOOL)isAlphabets:(UITextField *)field;
 +(BOOL)isValidEmail:(UITextField *)field;
++(BOOL)isiPhone4;
++(BOOL)isiPhone6;
++(BOOL)isiOS8;
++(BOOL)isiOS7;
++(NSString *)trimWhiteSpaces:(NSString *)str;
+
 
 @end

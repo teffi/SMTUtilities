@@ -5,6 +5,10 @@
 //  Created by Teffi : github.com/teffi/SMTUtilities
 //  Copyright (c) 2015 iamsteffi.com
 //
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+
+
 
 #import "SMTUtilities.h"
 
@@ -54,5 +58,34 @@
     return NO;
 }
 
++(BOOL)isiPhone4{
+    if([[UIScreen mainScreen ] bounds ].size.height == 480){
+        return YES;
+    }
+    return NO;
+}
+
++(BOOL)isiPhone6{
+    if([[UIScreen mainScreen ] bounds ].size.height >= 667){
+        return YES;
+    }
+    return NO;
+}
++(BOOL)isiOS8{
+    if(SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")){
+        return YES;
+    }
+    return NO;
+}
++(BOOL)isiOS7{
+    if((SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))&&(!SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0"))){
+        return YES;
+    }
+    
+    return NO;
+}
++(NSString *)trimWhiteSpaces:(NSString *)str{
+    return [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
 
 @end
