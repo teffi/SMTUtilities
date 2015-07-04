@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SMTUtilities"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "SMTUtilities is an objective-c utility class for textfield validations."
 
  # s.description  = ""
