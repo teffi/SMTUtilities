@@ -6,7 +6,7 @@ SMTUtilities is an objective-c utility class for textfield validations.Each meth
 
 
 ## Version
-1.0.0
+1.1.0
 
 ##METHODS
 #####Empty fields
@@ -28,12 +28,37 @@ SMTUtilities is an objective-c utility class for textfield validations.Each meth
 ```objc
 +(BOOL)isValidEmail:(UITextField *)field;
 ```
+#####iPhone4 Screen check
+```objc
++(BOOL)isiPhone4;
+```
+#####iPhone6 Screen check
+```objc
++(BOOL)isiPhone6;
+```
+#####iOS8 version check
+```objc
++(BOOL)isiOS8;
+```
+#####iOS7 version check
+```objc
++(BOOL)isiOS7;
+```
+#####White spaces trimming
+```objc
++(NSString *)trimWhiteSpaces:(NSString *)str;
+```
+
+##Change Log - v1.1.0
+New Methods
+- iphone 4/6 screen checks
+- iOS 7 and 8 version checks
+- String trimming whitespaces.
+
 
 
 ### Next Steps
 
-- Add iphone screen checking
-- Add iOS version checking
 - Add other common validations
 - Create Swift counterpart
 
